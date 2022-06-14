@@ -5,9 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon"  href="./imagenes/logo3.png">
+    <title>Club Belgrano San Nicolas</title>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+  <header>
+    <div class="text-center">
+      <a class="navbar-brand" href="#">
+        <img class="logoP" src="./imagenes/logoNuevo.jpg" alt="icono ">
+    </a>
+  </div>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"></a>
@@ -21,39 +29,92 @@
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Instalaciones
+                  El club
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Historia</a></li>
-                  <li><a class="dropdown-item" href="#">Autoridades</a></li>
-                  <li><a class="dropdown-item" href="#">RSB</a></li>
+                <ul class="dropdown-menu ulNav" aria-labelledby="navbarDropdownMenuLink" >
+                  <li class="listasNav"><a class="dropdown-item" href="./paginas/historia.html"><img src="./imagenes/LogoHistoria.jpg" class="logosNav" alt="logoHistoria">  Historia</a></li>
+                  <li class="listasNav"><a class="dropdown-item" href="./paginas/autoridades.html"> <img src="./imagenes/logoAutoridades.jpg" class="logosNav" alt=""> Autoridades</a></li>
+                  <li class="listasNav"><a class="dropdown-item" href="./paginas/primaria.html"><img src="./imagenes/logoRespo.jpg" class="logosNav" alt=""> RSB</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Escuelas
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Nivel inicial</a></li>
-                  <li><a class="dropdown-item" href="#">Primario</a></li>
-                  <li><a class="dropdown-item" href="#">Secundario</a></li>
+                <ul class="dropdown-menu ulNav" aria-labelledby="navbarDropdownMenuLink">
+                  <img src="./imagenes/logoEscuelita.jpg" class="escuelaLogo" alt="escuelaLogo">
+                  <li><a class="dropdown-item" href="./paginas/jardin.html">Nivel inicial</a></li>
+                  <li><a class="dropdown-item" href="./paginas/primaria.html">Primario</a></li>
+                  <li><a class="dropdown-item" href="./paginas/secundaria.html">Secundario</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Instalaciones
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Sede Pellegrini</a></li>
-                  <li><a class="dropdown-item" href="#">Morteo</a></li>
-                  <li><a class="dropdown-item" href="#">Club de Campo</a></li>
-                  <li><a class="dropdown-item" href="#">Camping</a></li>
+                <ul class="dropdown-menu ulNav" aria-labelledby="navbarDropdownMenuLink">
+                  <img src="./imagenes/logoInstala.jpg" alt="logoInstalaciones" class="logoInstala">
+                  <li><a class="dropdown-item" href="./paginas/sedepellegrini.html">Sede Pellegrini</a></li>
+                  <li><a class="dropdown-item" href="./paginas/morteo.html">Morteo</a></li>
+                  <li><a class="dropdown-item" href="./paginas/clubdecampo.html">Club de Campo</a></li>
+                  <li><a class="dropdown-item" href="./paginas/camping.html">Camping</a></li>
                 </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Deportes
+                </a>
+                <ul class="dropdown-menu ulNav" aria-labelledby="navbarDropdownMenuLink">
+                  <img src="./imagenes/logoDepo.jpg" alt="logoDepo" class="logoDepo">
+                  <li><a class="dropdown-item" href="./paginas/basquet.html">Basquet</a></li>
+                  <li><a class="dropdown-item" href="#">Futbol</a></li>
+                  <li><a class="dropdown-item" href="#">Handball</a></li>
+                  <li><a class="dropdown-item" href="#">Voley</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./paginas/contacto.html">Contacto</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+  </header>
+  <main class="mainIndex row col-lg-12">
+    <div class="jumbotron">
+      <h1 class="display-4 titulo text-center">¡Bienvenidos al Club Belgrano San Nicolas!</h1>
+      <p class="lead text-center">Conoce  la historia de la institucion mas grande de la ciudad, a travez de nuestro nuevo sitio web!.</p>
+      <p class="lead mx-auto">
+        <a class="btn btn-primary btn-danger boton mx-auto" href="./paginas/historia.html" role="button">Nuestra Historia</a>
+      </p>
+    </div>
+    <img src="./imagenes/portadaIndex.jpg" alt="portada foto" class="mx-auto  portadaIndex my-5" style="width: 800px; height: 350px;">
+    </main>
+    <footer>
+      <section class="container-fluid my-0 ">
+        <div class="row">
+          <div class="col-lg-4 logofooter">
+          <img src="./imagenes/logofooter.jpg" style="height: 100px; width:180px" alt="logofooter">   </div>
+          <div class="col-lg-4  textofooter">
+          <p>Carlos Pellegrini 476</p>
+          <p>San Nicolas de los Arroyos</p>
+          <p>Provinicia Buenos Aires</p>
+          <p><a href="https://goo.gl/maps/bjsvYhEcEAZkEGgr6">Ver mapa</a></p>
+          </div>
+          <div class="col-lg-4 iconos">
+            <div class="telefono"><img src="./imagenes/0336-4454540.png" style="height: 100px; width:250px" alt=""></div>
+             <div class="iconosRedes">
+              <a href="https://www.facebook.com/CBSNoficial"><i class="fa-brands fa-2x fa-facebook"></i>
+              <a href="https://www.instagram.com/cbsnoficial/?hl=es"><i class="fa-brands fa-2x fa-instagram-square"></i></a>
+              <a href="https://www.youtube.com/channel/UC0p5j3krNOFBaqRZuyruJKA"><i class="fa-brands fa-2x fa-youtube"></i></a>
+             </div>
+          </div>
+        </div>
+      </section>
+      <div class="derechos ">
+        <p class="text-center"><strong>CLUB BELGRANO SAN NICOLAS 2022</strong>\ Diseño y Desarrolo Santiago Viale</p>
+      </div>
+    </footer>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

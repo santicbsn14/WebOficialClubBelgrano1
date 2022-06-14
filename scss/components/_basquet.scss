@@ -1,0 +1,57 @@
+.titulo{
+    color: $color-principal;
+}
+.accordion{
+  width: 800px;
+}
+ :hover .accordion-button{
+  color: black;
+}
+.carousel{
+  height: 500px;
+  width: 1000px;
+}
+.carousel img{
+  height: 500px;
+  width: 1000px;
+  border: solid; color: black;
+}
+.contenedorUno{
+  display: flex;
+  justify-content: space-between;
+}
+.carousel p{
+  color: black;
+}
+.formulario button{
+  background-color: red;
+  border: red;
+}
+.formulario{
+  width: 400px;
+}
+h4{
+  font-size: map-get($tamanio-tipografia, subtitulos);
+  color: red;
+}
+.formulario{
+  width: 800px;
+  padding-bottom: 30px;
+}
+.accordion-body{
+  display: flex;
+  flex-direction: column;
+}
+p{
+  font-size: map-get($tamanio-tipografia, parrafo );
+}
+.textoIntro{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.fotoSpon{
+  width: 400px;
+  height: 150px;
+  padding-bottom: 3px;
+}
+

@@ -1,0 +1,24 @@
+@import "../base/variables";
+.datosUbicacion h2{
+    color: $color-principal;
+    font-size: map-get($tamanio-tipografia,titulos );
+}
+.message{
+    height: 110px;
+}
+.mapaUbi{
+    position: relative;
+    left: 0px;
+    width: 400px;
+}
+.section{
+    padding-bottom: 80px;
+}
+.rojo{
+    background-color: $color-principal;
+}
+@media only screen and (max-width:990px){
+    .formulario{
+        padding-bottom: 130px;
+    }
+}

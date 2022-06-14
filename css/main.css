@@ -1,2 +1,154 @@
-footer {
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.ulNav {
+  width: 500px;
+  height: 300px; }
+
+.jumbotron h1 {
   color: red; }
+
+.boton {
+  background-color: red; }
+
+.logoP {
+  height: 90px;
+  width: 130px; }
+
+.logosNav {
+  height: 80px;
+  width: 80px; }
+
+.listasNav {
+  display: flex; }
+
+.escuelaLogo {
+  position: relative;
+  left: 150px;
+  height: 140px;
+  width: 180px; }
+
+.logoInstala {
+  position: relative;
+  left: 170px;
+  height: 140px;
+  width: 180px; }
+
+.logoDepo {
+  position: relative;
+  left: 180px;
+  height: 110px;
+  width: 150px; }
+
+.titulo {
+  color: red; }
+
+.accordion {
+  width: 800px; }
+
+:hover .accordion-button {
+  color: black; }
+
+.carousel {
+  height: 500px;
+  width: 1000px; }
+
+.carousel img {
+  height: 500px;
+  width: 1000px;
+  border: solid;
+  color: black; }
+
+.contenedorUno {
+  display: flex;
+  justify-content: space-between; }
+
+.carousel p {
+  color: black; }
+
+.formulario button {
+  background-color: red;
+  border: red; }
+
+.formulario {
+  width: 400px; }
+
+h4 {
+  font-size: 20px;
+  color: red; }
+
+.formulario {
+  width: 800px;
+  padding-bottom: 30px; }
+
+.accordion-body {
+  display: flex;
+  flex-direction: column; }
+
+p {
+  font-size: 14px; }
+
+.textoIntro {
+  padding-left: 100px;
+  padding-right: 100px; }
+
+.fotoSpon {
+  width: 400px;
+  height: 150px;
+  padding-bottom: 3px; }
+
+footer {
+  background-color: red; }
+
+.iconos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: ". telefono ." ". redes ."; }
+
+.logofooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.textofooter p {
+  font-size: 16px;
+  padding-bottom: 0px;
+  color: black; }
+
+.textofooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.textofooter p :hover {
+  font-weight: bold; }
+
+.iconosRedes {
+  display: flex;
+  grid-area: redes;
+  justify-content: space-around; }
+
+.iconosRedes a {
+  color: black; }
+
+.telefono {
+  grid-area: telefono; }
+
+.textofooter a {
+  text-decoration-line: none; }
+
+.iconosRedes :hover {
+  color: yellow; }
+
+.derechos {
+  background-color: #bf0000;
+  width: 100%;
+  height: 60px; }
+
+.derechos p {
+  color: black; }

@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/santicbsn14/webClubConBoots.git"
+    "url": "git+https:https://github.com/santicbsn14/WebOficialClubBelgrano1.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/santicbsn14/webClubConBoots/issues"
+    "url": "https://github.com/santicbsn14/WebOficialClubBelgrano1/issues"
   },
-  "homepage": "https://github.com/santicbsn14/webClubConBoots#readme",
+  "homepage": "https://github.com/santicbsn14/WebOficialClubBelgrano1#readme",
   "dependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"

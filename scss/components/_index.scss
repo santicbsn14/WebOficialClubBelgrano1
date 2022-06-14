@@ -1,0 +1,10 @@
+
+.jumbotron{
+    @extend %centrado;
+}
+.jumbotron h1{
+    color: red;
+}
+.boton{
+    background-color: red;
+}

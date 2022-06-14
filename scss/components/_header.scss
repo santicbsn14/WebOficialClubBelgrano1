@@ -1,0 +1,32 @@
+.logoP{
+    height: 90px;
+    width: 130px;
+}
+.logosNav{
+    height: 80px;
+    width: 80px;
+}
+.listasNav{
+    display: flex;
+}
+.escuelaLogo{
+    position: relative;
+    left: 150px;
+    height: 140px;
+    width: 180px;
+}
+.ulNav{
+    @extend %tamañoListas;
+}
+.logoInstala{
+    position: relative;
+    left: 170px;
+    height: 140px;
+    width: 180px;
+}
+.logoDepo{
+    position: relative;
+    left: 180px;
+    height: 110px;
+    width: 150px;
+}

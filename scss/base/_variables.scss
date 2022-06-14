@@ -1,0 +1,18 @@
+%centrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+};
+%tamañoListas{
+    width: 500px;
+    height: 300px;
+}
+$color-principal:red;
+$tamanio-tipografia:(
+    titulos: 26px,
+    subtitulos: 20px,
+    parrafo: 14px,
+    letra-chica: 12px,
+);
+

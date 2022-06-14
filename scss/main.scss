@@ -1,3 +1,5 @@
-footer{
-    color: red;
-}
+@import"./base/variables";
+@import"./components/index";
+@import"./components/header";
+@import"./components/basquet";
+@import"./components/footer";
