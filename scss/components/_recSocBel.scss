@@ -1,0 +1,11 @@
+.titulin{
+    color: $color-principal;
+}
+p{
+    font-size: map-get($tamanio-tipografia, parrafo);
+}
+
+.carousel img{
+    height: 390px;
+    width: 700px;
+  }

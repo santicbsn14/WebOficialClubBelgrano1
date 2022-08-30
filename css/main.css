@@ -5,8 +5,8 @@
   align-items: center; }
 
 .ulNav {
-  width: 500px;
-  height: 300px; }
+  width: 550px;
+  height: 700px; }
 
 .jumbotron h1 {
   color: red; }
@@ -15,12 +15,29 @@
   background-color: red; }
 
 .logoP {
-  height: 90px;
-  width: 130px; }
+  height: 130px;
+  width: 180px;
+  position: relative;
+  top: 2px; }
+
+header {
+  width: 100%; }
+
+nav {
+  background-color: white; }
+
+.nav-item {
+  width: 100%; }
+
+nav li {
+  padding: 1px; }
 
 .logosNav {
   height: 80px;
   width: 80px; }
+
+.margenNav {
+  margin-top: -0px; }
 
 .listasNav {
   display: flex; }
@@ -31,17 +48,18 @@
   height: 140px;
   width: 180px; }
 
+.ulNav {
+  position: absolute; }
+
 .logoInstala {
   position: relative;
   left: 170px;
   height: 140px;
   width: 180px; }
 
-.logoDepo {
-  position: relative;
-  left: 180px;
-  height: 110px;
-  width: 150px; }
+.logoCabeceraNav {
+  height: 150px;
+  width: 170px; }
 
 .titulo {
   color: red; }
@@ -52,29 +70,13 @@
 :hover .accordion-button {
   color: black; }
 
-.carousel {
-  height: 500px;
-  width: 1000px; }
-
-.carousel img {
-  height: 500px;
-  width: 1000px;
-  border: solid;
-  color: black; }
-
 .contenedorUno {
   display: flex;
   justify-content: space-between; }
 
-.carousel p {
-  color: black; }
-
 .formulario button {
   background-color: red;
   border: red; }
-
-.formulario {
-  width: 400px; }
 
 h4 {
   font-size: 20px;
@@ -152,3 +154,58 @@ footer {
 
 .derechos p {
   color: black; }
+
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.ulNav {
+  width: 550px;
+  height: 700px; }
+
+.datosUbicacion h2 {
+  color: red;
+  font-size: 26px; }
+
+.message {
+  height: 110px; }
+
+.mapaUbi {
+  position: relative;
+  left: 0px;
+  width: 400px; }
+
+.section {
+  padding-bottom: 80px;
+  padding-right: 0px; }
+
+.rojo {
+  background-color: red; }
+
+.formularioCon {
+  width: 90%; }
+
+@media only screen and (max-width: 990px) {
+  .formularioCon {
+    padding-bottom: 130px; } }
+
+.tituloAutoridades {
+  color: Red; }
+
+.sectionAuto {
+  background-color: #f6f6f6; }
+
+.titulin {
+  color: red; }
+
+p {
+  font-size: 14px; }
+
+.carousel img {
+  height: 390px;
+  width: 700px; }
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif; }

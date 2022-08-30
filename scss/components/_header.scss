@@ -1,10 +1,27 @@
 .logoP{
-    height: 90px;
-    width: 130px;
+    height: 130px;
+    width: 250px;
+    position: relative;
+    top: 2px;
+}
+header{
+    width: 100%;
+}
+nav{
+    background-color: white;
+}
+.nav-item{
+    width: 100%;
+}
+nav li{
+    padding: 1px;
 }
 .logosNav{
     height: 80px;
     width: 80px;
+}
+.margenNav{
+    margin-top: -0px;
 }
 .listasNav{
     display: flex;
@@ -17,6 +34,7 @@
 }
 .ulNav{
     @extend %tamañoListas;
+    position:absolute;
 }
 .logoInstala{
     position: relative;
@@ -24,9 +42,10 @@
     height: 140px;
     width: 180px;
 }
-.logoDepo{
-    position: relative;
-    left: 180px;
-    height: 110px;
-    width: 150px;
+.logoCabeceraNav{
+    height: 150px;
+    width: 170px;
 }
+
+
+

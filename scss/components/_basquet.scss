@@ -7,32 +7,18 @@
  :hover .accordion-button{
   color: black;
 }
-.carousel{
-  height: 500px;
-  width: 1000px;
-}
-.carousel img{
-  height: 500px;
-  width: 1000px;
-  border: solid; color: black;
-}
 .contenedorUno{
   display: flex;
   justify-content: space-between;
 }
-.carousel p{
-  color: black;
-}
+
 .formulario button{
-  background-color: red;
-  border: red;
-}
-.formulario{
-  width: 400px;
+  background-color: $color-principal;
+  border: $color-principal;
 }
 h4{
   font-size: map-get($tamanio-tipografia, subtitulos);
-  color: red;
+  color: $color-principal;
 }
 .formulario{
   width: 800px;

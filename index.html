@@ -6,46 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="icon" type="image/x-icon"  href="./imagenes/logo3.png">
+    <script src="https://kit.fontawesome.com/6e3411cd14.js" crossorigin="anonymous"></script>
     <title>Club Belgrano San Nicolas</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+  <!-- HEADER -->
   <header>
-    <div class="text-center">
-      <a class="navbar-brand" href="#">
-        <img class="logoP" src="./imagenes/logoNuevo.jpg" alt="icono ">
+    <div class="text-center container-fluid ">
+      <a class="navbar-brand" href="../index.html">
+        <img class="logoP" src="../imagenes/logoNuevo.jpg" alt="icono ">
     </a>
-  </div>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mx-auto">
+            <ul class="navbar-nav navbar-nav-scroll mx-auto bg-light" >
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link " aria-current="page" href="#">Inicio</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   El club
                 </a>
                 <ul class="dropdown-menu ulNav" aria-labelledby="navbarDropdownMenuLink" >
-                  <li class="listasNav"><a class="dropdown-item" href="./paginas/historia.html"><img src="./imagenes/LogoHistoria.jpg" class="logosNav" alt="logoHistoria">  Historia</a></li>
-                  <li class="listasNav"><a class="dropdown-item" href="./paginas/autoridades.html"> <img src="./imagenes/logoAutoridades.jpg" class="logosNav" alt=""> Autoridades</a></li>
-                  <li class="listasNav"><a class="dropdown-item" href="./paginas/primaria.html"><img src="./imagenes/logoRespo.jpg" class="logosNav" alt=""> RSB</a></li>
+                  <section class="container-fluid margenNav">
+                    <div class="row">
+                      <div class="text-center">
+                        <img src="../imagenes/logoNuevo.jpg" style="height: 110px; width: 140px" class="logoCabeceraNav" alt="escuelaLogo">
+                        </div>
+                      <div class="col-lg-12">
+                        <li class="listasNav"><a class="dropdown-item" href="./paginas/historia.html"><img src="./imagenes/LogoHistoria.jpg" class="logosNav" alt="logoHistoria">Historia</a></li>
+                      </div>
+                      <div class="col-lg-12">
+                        <li class="listasNav"><a class="dropdown-item" href="./paginas/autoridades.html"> <img src="./imagenes/logoAutoridades.jpg" class="logosNav" alt=""> Autoridades</a></li>
+                      </div>
+                      <div class="col-lg-12">
+                        <li class="listasNav"><a class="dropdown-item" href="./paginas/resSOCBEL.html"><img src="./imagenes/logoRespo.jpg" class="logosNav" alt=""> RSB</a></li>
+                      </div>
+                    </div>
+                  </section>
                 </ul>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Escuelas
                 </a>
-                <ul class="dropdown-menu ulNav" aria-labelledby="navbarDropdownMenuLink">
-                  <img src="./imagenes/logoEscuelita.jpg" class="escuelaLogo" alt="escuelaLogo">
-                  <li><a class="dropdown-item" href="./paginas/jardin.html">Nivel inicial</a></li>
-                  <li><a class="dropdown-item" href="./paginas/primaria.html">Primario</a></li>
-                  <li><a class="dropdown-item" href="./paginas/secundaria.html">Secundario</a></li>
+                <ul class="dropdown-menu escuelNav ulNav" aria-labelledby="navbarDropdownMenuLink">
+                  <section class="container-fluid margenNav">
+                    <div class="row">
+                      <div class="text-center">
+                      <img src="../imagenes/logoEscuelita.jpg" class="text-center" style="width: 170px; height: 150px;" alt="escuelaLogo">
+                      </div>
+                      <div class="col-lg-12">
+                        <li><a class="dropdown-item" href="./paginas/secundaria.html"><img src="./imagenes/loguitoesc.jpg" class="logosNav" alt="logolapiz">Secundario </a></li>
+                      </div>
+                      <div class="col-lg-12">
+                        <li><a class="dropdown-item" href="./paginas/primaria.html"><img src="./imagenes/loguitoesc.jpg" class="logosNav" alt="logolapiz">Primario </a></li>
+                      </div>
+                      <div class="col-lg-12">
+                        <li><a class="dropdown-item" href="./paginas/jardin.html"> <img src="./imagenes/loguitoesc.jpg" class="logosNav" alt="logolapiz">Nivel Inicial</a></li>
+                      </div>
+                    </div>
+                  </section>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -53,27 +79,54 @@
                   Instalaciones
                 </a>
                 <ul class="dropdown-menu ulNav" aria-labelledby="navbarDropdownMenuLink">
-                  <img src="./imagenes/logoInstala.jpg" alt="logoInstalaciones" class="logoInstala">
-                  <li><a class="dropdown-item" href="./paginas/sedepellegrini.html">Sede Pellegrini</a></li>
-                  <li><a class="dropdown-item" href="./paginas/morteo.html">Morteo</a></li>
-                  <li><a class="dropdown-item" href="./paginas/clubdecampo.html">Club de Campo</a></li>
-                  <li><a class="dropdown-item" href="./paginas/camping.html">Camping</a></li>
+                  <section class="container-fluid margenNav">
+                    <div class="row">
+                      <div class="text-center">
+                        <img src="../imagenes/loguitocasita.jpg" class="text-center" style="width: 170px; height: 150px;" alt="escuelaLogo">
+                        </div>
+                      <div class="col-lg-6 col-md-12 col-sm-12">
+                        <li><a class="dropdown-item" href="./paginas/sedepellegrini.html"><img src="./imagenes/loguitocasita.jpg" class="logosNav" alt="logolapiz">Sede Pellegrini</a></li>
+                        <li><a class="dropdown-item" href="./paginas/.clubdecampo.html"><img src="./imagenes/loguitocasita.jpg" class="logosNav" alt="logolapiz">Club de Campo</a></li>
+                      </div>
+                      <div class="col-lg-6 col-md-12 col-sm-12">
+                        <li><a class="dropdown-item" href="./paginas/camping.html"><img src="./imagenes/loguitocasita.jpg" class="logosNav" alt="logolapiz">Camping</a></li>
+                        <li><a class="dropdown-item" href="./paginas/morteo.html"><img src="./imagenes/loguitocasita.jpg" class="logosNav" alt="logolapiz">Morteo</a></li>
+                      </div>
+                    </div>
+                </section>
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Deportes
                 </a>
-                <ul class="dropdown-menu ulNav" aria-labelledby="navbarDropdownMenuLink">
-                  <img src="./imagenes/logoDepo.jpg" alt="logoDepo" class="logoDepo">
-                  <li><a class="dropdown-item" href="./paginas/basquet.html">Basquet</a></li>
-                  <li><a class="dropdown-item" href="#">Futbol</a></li>
-                  <li><a class="dropdown-item" href="#">Handball</a></li>
-                  <li><a class="dropdown-item" href="#">Voley</a></li>
+                <ul class="dropdown-menu ulNav navdepo  " aria-labelledby="navbarDropdownMenuLink" >
+                  <section class="container-fluid margenNav">
+                    <div class="row">
+                      <div class="text-center">
+                        <img src="./imagenes/logoDepo.jpg" class="text-center" style="width: 170px; height: 150px;" alt="escuelaLogo">
+                        </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                       <li class="listasNav"><a class="dropdown-item" href="./paginas/basquet.html"><img src="./imagenes/logobasquet.jpg" class="logosNav" alt="logoBasquet">Basquet</a></li>
+                       <li class="listasNav"><a class="dropdown-item" href="./paginas/futbol.html"><img src="./imagenes/Logofutbol.jpg" class="logosNav" alt="logoFutbol">Futbol</a></li>
+                       <li class="listasNav" ><a class="dropdown-item" href="./paginas/futsal.html"><img src="./imagenes/logofutsal.jpg" class="logosNav" alt="logoRugby">Futsal</a></li>
+                       <li class="listasNav"><a class="dropdown-item" href="./paginas/handball.html"><img src="./imagenes/logohandball.jpg" class="logosNav" alt="logoHandball">Handball</a></li>
+                       <li class="listasNav"><a  class="dropdown-item" href="./paginas/gimnasiopesas.html"> <img src="./imagenes/logogimnasito.png" class="logosNav" alt="logosnav">Gimnasio de Musculación</a></li>
+                       <li class="listasNav"><a  class="dropdown-item" href="./paginas/hockey.html"> <img src="./imagenes/logoHockey.jpg" class="logosNav" alt="logosnav">Hockey</a></li>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                       <li class="listasNav" ><a class="dropdown-item" href="./paginas/karate.html"><img src="./imagenes/logokarate.jpg" class="logosNav" alt="logoKarate">Karate</a></li>
+                       <li class="listasNav" ><a class="dropdown-item" href="./paginas/futbol.html"><img src="./imagenes/logorugby.jpg" class="logosNav" alt="logoRugby">Rugby</a></li>
+                       <li class="listasNav"><a class="dropdown-item" href="./paginas/gimnasia.html"><img src="./imagenes/logogimart.jpg" class="logosNav" alt="logoRugby">Gimnasia Artística</a></li>
+                       <li class="listasNav"><a class="dropdown-item" href="./paginas/voley.html"><img src="./imagenes/logovoley.jpg" class="logosNav" alt="logoVoley">Voley</a></li>
+                       <li class="listasNav"><a class="dropdown-item" href="./paginas/judo.html"><img src="./imagenes/loguitojud.jpg" class="logosNav" alt="logoJudo">Judo</a></li>
+                      </div>
+                    </div>
+                  </section>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./paginas/contacto.html">Contacto</a>
+                <a class="nav-link" aria-current="page" href="contacto.html">Contacto</a>
               </li>
             </ul>
           </div>
@@ -96,11 +149,13 @@
           <div class="col-lg-4 logofooter">
           <img src="./imagenes/logofooter.jpg" style="height: 100px; width:180px" alt="logofooter">   </div>
           <div class="col-lg-4  textofooter">
-          <p>Carlos Pellegrini 476</p>
-          <p>San Nicolas de los Arroyos</p>
-          <p>Provinicia Buenos Aires</p>
-          <p><a href="https://goo.gl/maps/bjsvYhEcEAZkEGgr6">Ver mapa</a></p>
-          </div>
+            <p>San Nicolas de los Arroyos</p>
+            <p>Direccion: Carlos Pellegrini 476</p>
+            <p>Sede Club de Campo: Km 234, RN9</p>
+            <p>Sede Morteo: Av. Morteo 20</p>
+            <p>Provinicia Buenos Aires</p>
+            <p><a href="https://goo.gl/maps/bjsvYhEcEAZkEGgr6">Ver mapa</a></p>
+            </div>
           <div class="col-lg-4 iconos">
             <div class="telefono"><img src="./imagenes/0336-4454540.png" style="height: 100px; width:250px" alt=""></div>
              <div class="iconosRedes">
