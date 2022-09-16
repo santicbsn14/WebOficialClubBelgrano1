@@ -46,6 +46,30 @@ nav li{
     height: 150px;
     width: 170px;
 }
+@media only screen and (max-width:990px) {
+    .logoCabeceraNav{
+        height: 115px;
+        width: 135px;
+    }
+    .logoInstala{
+        position: relative;
+        left: 50%;
+        margin: auto;
+        height: 120px;
+        width: 140px;
+    }
+    .escuelaLogo{
+        position: relative;
+        left: 50%;
+        margin: auto;
+        height: 120px;
+        width: 140px;
+    }
+    .logosNav{
+        height: 60px;
+        width: 60px;
+    }
+}
 
 
 
